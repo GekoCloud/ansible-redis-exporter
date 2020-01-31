@@ -31,4 +31,6 @@ Checkout [integration tests](test/integration) directory for example playbooks.
 
 Author: Luca Florio <luca.florio@contentwise.tv>
 
+Updated by GekoCloud to work with newer exporters versions
+
 Licensed under the Apache License V2.0. See the [LICENSE file](LICENSE) for details.

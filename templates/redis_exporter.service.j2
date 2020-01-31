@@ -22,8 +22,7 @@ ExecStart={{ redis_exporter_symlink }} \
                 -redis.addr {{ redis_exporter_redis_addr }} \
                 -namespace {{ redis_exporter_namespace }} \
                 -web.listen-address {{ redis_exporter_web_listen_address }} \
-                -web.telemetry-path {{ redis_exporter_web_telemetry_path }} \
-                -use-cf-bindings {{ redis_exporter_use_cf_bindings }}
+                -web.telemetry-path {{ redis_exporter_web_telemetry_path }}
 
 [Install]
 WantedBy=multi-user.target

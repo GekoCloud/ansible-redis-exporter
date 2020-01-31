@@ -12,7 +12,7 @@
 - name: unarchive Redis Exporter
   unarchive:
     remote_src: yes
-    dest: "{{ redis_exporter_install_dir }}/{{ redis_exporter_name }}"
+    dest: "{{ redis_exporter_install_dir }}"
     src: "{{ redis_exporter_url }}"
 
 - name: create symlink to the current release
